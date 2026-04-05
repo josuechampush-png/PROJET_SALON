@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+}
+
+#pq1, #pq2, #pq3{
+    display: flex; /* Met les éléments enfants côte à côte */
+    justify-content: space-between; /* Espace entre les deux boîtes */
+    gap: 30px; /* Espace entre les deux div */
+    padding-bottom: 20px;
+}
+
+.dv{
+    width: 48%; /* Chaque boîte prend presque la moitié */
+    padding: 20px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box; /* Évite les débordements */
+}
+
+#btn{
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: slategray;
+    color: aliceblue;
+    font-size: 20px;
+}

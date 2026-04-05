@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+}
+
+.dev{
+    border: 4px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.dev img{
+    display: block;
+    width: 250PX
+}
+
+span{
+    color: green;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deux div côte à côte</title>
+
+    <style>
+        /* =========================
+           1) Style général de la page
+        ========================= */
+        body{
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* =========================
+           2) Conteneur principal
+           C'est lui qui va contenir
+           les deux boîtes
+        ========================= */
+        .conteneur{
+            display: flex; /* Met les éléments enfants côte à côte */
+            justify-content: space-between; /* Espace entre les deux boîtes */
+            gap: 20px; /* Espace entre les deux div */
+        }
+
+        /* =========================
+           3) Style commun des deux div
+        ========================= */
+        .boite{
+            width: 48%; /* Chaque boîte prend presque la moitié */
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-sizing: border-box; /* Évite les débordements */
+        }
+
+        /* =========================
+           4) Couleurs différentes
+           juste pour distinguer
+        ========================= */
+        .gauche{
+            background-color: lightblue;
+        }
+
+        .droite{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- =========================
+         Conteneur principal
+    ========================= -->
+    <div class="conteneur">
+
+        <!-- Première boîte à gauche -->
+        <div class="boite gauche">
+            <h2>Boîte de gauche</h2>
+            <p>Cette boîte est placée à gauche.</p>
+        </div>
+
+        <!-- Deuxième boîte à droite -->
+        <div class="boite droite">
+            <h2>Boîte de droite</h2>
+            <p>Cette boîte est placée à droite.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
