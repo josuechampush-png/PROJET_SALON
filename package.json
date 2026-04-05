@@ -1,0 +1,23 @@
+{
+  "name": "projet_salon",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/josuechampush-png/PROJET_SALON#readme",
+  "bugs": {
+    "url": "https://github.com/josuechampush-png/PROJET_SALON/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuechampush-png/PROJET_SALON.git"
+  },
+  "license": "ISC",
+  "author": "champush",
+  "type": "commonjs",
+  "main": "serveurSalon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
